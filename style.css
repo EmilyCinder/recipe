@@ -169,7 +169,7 @@ h2 {
     justify-content: space-between;
 }
 
-.list-container {
+.list-container h2{
     width: 45%; 
 }
 
