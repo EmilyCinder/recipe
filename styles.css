@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark: #0D0D0D;
+    --color-light: #FFFFFF;
+    --color-accent-light: rgba(122, 191, 191, 0.5);
+    --color-highlight: #EB5428;
+    --nav-link-color: #EB5428;
+
+    --font-main: 'Montserrat', sans-serif;
+    --font-heading: 'Bebas Neue', sans-serif;
+
+    --font-size-nav: 16px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-accent-light);
+    font-family: var(--font-main);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    background-color: var(--color-light);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    font-family: var(--font-heading);
+    font-size: var(--font-size-nav);
+    margin-top: 10px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #F2F2F2;
+    padding: 40px;
+    margin-top: 195px;
+    min-height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.taco-image {
+    float: right;
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+p {
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-family: var(--font-main);
+    margin-bottom: 15px;
+    float: right;
+}
+
+.action-icons {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light);
+    border: 2px solid var(--color-highlight);
+    padding: 20px;
+    gap: 20px;
+    width: 120px; 
+    height: 400px; 
+    position: absolute;
+    left: 0; 
+    bottom: 0; 
+}
+
+
+.action-icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.action-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.action-icons img {
+    width: 40px;
+    height: 40px;
+}
+@media (min-width: 1280px) {
+    header {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 768px) {
+    header {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    header {
+        width: 100%;
+        padding: 5px;
+    }
+    a {
+        font-size: 12px;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
