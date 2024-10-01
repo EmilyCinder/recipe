@@ -96,10 +96,11 @@ button {
 }
 
 .taco-image {
-    float: right;
-    max-width: 300px;
+
+    width: 400px;
     height: auto;
     margin-right: 20px;
+    margin-top: 700px;
 }
 
 p {
@@ -109,6 +110,12 @@ p {
     margin-bottom: 15px;
     float: right;
 }
+.content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 
 .action-icons {
     display: flex;
