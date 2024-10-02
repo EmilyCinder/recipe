@@ -87,10 +87,11 @@ button {
 .container {
     width: 79.31%;
     max-width: 1600px; 
+    min-height: 1100px;
     background-color: #F2F2F2;
     padding: 40px;
     margin-top: 195px; 
-    min-height: 600px;
+    
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
