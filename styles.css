@@ -9,7 +9,7 @@
 :root {
     --color-dark: #0D0D0D;
     --color-light: #FFFFFF;
-    --color-accent-light: rgba(122, 191, 191, 0.5);
+   
     --color-highlight: #EB5428;
     --nav-link-color: #EB5428;
 
@@ -33,7 +33,7 @@ html, body {
 header {
     width: 100%;
     max-width: 1200px;
-    background-color: var(--color-light);
+    background-color: #FFFFFF;
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,32 @@ nav {
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
+}
+.logo svg {
+    width: 50px;
+    height: 50px;
+    stroke: #FFFFFF;
+    background-color: #EB5428;
+}
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.sign-in svg {
+    width: 50px;
+    height: 50px;
+    stroke: #EB5428;
+    fill: none;
+}
+
+.sign-in p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
 }
 
 ul {
@@ -87,7 +113,7 @@ button {
 .container {
     width: 79.31%;
     max-width: 1600px; 
-    min-height: 1100px;
+    min-height: 800px;
     background-color: #F2F2F2;
     padding: 40px;
     margin-top: 195px; 
@@ -96,6 +122,54 @@ button {
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform: translateX(445px);
+    
+    
+    
+    
+}
+
+.search-bar input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #EB5428;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.search-bar button svg {
+    width: 35px;
+    height: 35px;
+    stroke: #FFFFFF;
+    background-color:#EB5428
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: #0D0D0D;
+    text-align: center;
+    margin: 90px 0;
+    width: 100%;
+    text-align: center;
+    transform: translateX(-150px);
 }
 
 .taco-image {
@@ -119,10 +193,10 @@ button {
 .action-icons {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-light);
-    border: 2px solid var(--color-highlight);
+    background-color: #FFFFFF;
+    border: 2px solid #EB5428;
     padding: 20px;
-    gap: 20px;
+    gap: 50px;
     width: 120px; 
     height: 400px; 
     position: absolute;
