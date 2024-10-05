@@ -121,7 +121,7 @@ button {
     min-height: 800px;
     background-color: #F2F2F2;
     padding: 40px;
-    margin-top: 195px;
+    margin-top: -350px;
     display: block;  
     position: relative;
     box-sizing: border-box;
@@ -241,7 +241,7 @@ h1 {
     width: 100%;
     max-width: 1200px;
     padding: 40px;
-    margin-top: 40px;
+    margin-top: -20px;
     box-sizing: border-box;
     display: block;
     min-height: 300px;
