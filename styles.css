@@ -121,7 +121,7 @@ button {
     min-height: 800px;
     background-color: #F2F2F2;
     padding: 40px;
-    margin-top: -350px;
+    margin-top: -410px;
     display: block;  
     position: relative;
     box-sizing: border-box;
@@ -246,6 +246,25 @@ h1 {
     display: block;
     min-height: 300px;
 }
+.details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.details-grid .item p {
+    margin: 0;
+    padding: 5px 0;
+}
+
 
 @media (min-width: 1280px) {
     header {
