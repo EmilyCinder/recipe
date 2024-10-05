@@ -44,6 +44,8 @@ header {
     align-items: center;
     position: absolute;
     top: 0;
+    z-index: 1000;
+    
 }
 
 nav {
@@ -121,7 +123,7 @@ button {
     min-height: 800px;
     background-color: #F2F2F2;
     padding: 40px;
-    margin-top: -525px;
+    margin-top: 95px;
     display: block;  
     position: relative;
     box-sizing: border-box;
@@ -264,6 +266,51 @@ h1 {
     margin: 0;
     padding: 5px 0;
 }
+
+
+
+.ingredients-directions-container {
+    background-color: #F2F2F2;
+    padding: 40px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+.ingredients {
+    width: 100%;
+    text-align: left; 
+}
+
+.ingredients h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+}
+
+.ingredients ul li {
+    display: list-item;
+}
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 1280px) {
