@@ -6,13 +6,6 @@
     box-sizing: border-box;
 }
 
-:root {
-   
-   
-    --font-main: 'Montserrat', sans-serif;
-    --font-heading: 'Bebas Neue', sans-serif;
-    --font-size-nav: 16px;
-}
 
 html, body {
     width: 100%; 
@@ -25,6 +18,18 @@ html, body {
     justify-content: center;
     align-items: flex-start;
 }
+
+h1, h2, h3, nav a, nav span, .menu li, .social-item p  {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+}
+
+p, dd, li, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 body {
     display: flex;
@@ -55,6 +60,10 @@ nav {
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
+    
+}
+nav a {
+    color: #EB5428; 
 }
 
 .logo svg {
@@ -124,7 +133,7 @@ button {
     min-height: 800px;
     background-color: #F2F2F2;
     padding: 40px;
-    margin-top: -35px;
+    margin-top: 180px;
     display: block;  
     position: relative;
     box-sizing: border-box;
@@ -374,7 +383,8 @@ h1 {
 }
 
 .rating-label {
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     color: #0D0D0D;
     margin-right: 5px;
@@ -420,9 +430,10 @@ h1 {
 }
 
 .footer-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
     font-size: 14px;
     color: #000000;
-    font-weight: bold;
     text-align: left;
     position: relative;
     line-height: 1.5;
