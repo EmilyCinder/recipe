@@ -7,10 +7,8 @@
 }
 
 :root {
-    --color-dark: #0D0D0D;
-    --color-light: #FFFFFF;
-    --color-highlight: #EB5428;
-    --nav-link-color: #EB5428;
+   
+   
     --font-main: 'Montserrat', sans-serif;
     --font-heading: 'Bebas Neue', sans-serif;
     --font-size-nav: 16px;
@@ -18,7 +16,7 @@
 
 html, body {
     width: 100%; 
-    min-height: 2650px;
+    min-height: 2100px;
     margin: 0;
     padding: 0;
     background-color: rgba(122, 191, 191, 0.5);
@@ -32,6 +30,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -45,6 +45,7 @@ header {
     position: absolute;
     top: 0;
     z-index: 1000;
+    margin-bottom: 0;
     
 }
 
@@ -123,7 +124,7 @@ button {
     min-height: 800px;
     background-color: #F2F2F2;
     padding: 40px;
-    margin-top: 0px;
+    margin-top: -35px;
     display: block;  
     position: relative;
     box-sizing: border-box;
@@ -181,9 +182,10 @@ h1 {
 .taco-image {
     width: 400px;
     height: auto;
-    position: relative; 
-    margin: 0; 
-    margin-left: 120px;
+    position: relative;
+    align-items: flex-end;
+    margin-left: 80px;
+    margin-bottom: -44px;
 }
 
 .taco-description {
@@ -390,6 +392,7 @@ h1 {
     
 }
 
+
 .footer-container {
     background-color: #FFFFFF;
     padding: 40px;
@@ -397,9 +400,10 @@ h1 {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 300px;
+    margin-top: auto;
 }
 
 .footer-content {
@@ -409,8 +413,9 @@ h1 {
 }
 
 .footer-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
@@ -419,22 +424,29 @@ h1 {
     color: #000000;
     font-weight: bold;
     text-align: left;
-    padding-top: 5px; 
     position: relative;
-    
-}
-
-.footer-text p {
-    margin: 0;
     line-height: 1.5;
-    text-align: center;
 }
 
+.social-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #EB5428;
+    font-weight: bold;
+}
 
-
-
-
+.social-item svg {
+    width: 40px;
+    height: 40px;
+}
 
 
 
